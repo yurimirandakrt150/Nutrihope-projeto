@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Comfortaa", sans-serif; font-family: "Comfortaa", sans-serif;
 }
 
 header {
@@ -21,7 +22,6 @@ li {
 
 .cabecalho_container {
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 65px;
 }
 
@@ -59,7 +59,7 @@ main{
 footer {
     height: 60px;
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom: 0;
     background-color: #0F482F;
     margin-top: 50px;
@@ -70,4 +70,19 @@ footer {
 footer img{
     object-fit: cover;
     padding: 5px;
+}
+
+.titulo{
+  font-size: 40px;
+  font-weight: 906px;
+  line-height: 252px;
+  margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
+
+}
+
+.titulo2{
+    font-size: 20px;
+    white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
+    margin-left: 200px;
+    margin-top: -100px;
 }
