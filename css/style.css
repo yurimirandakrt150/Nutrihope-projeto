@@ -86,3 +86,12 @@ footer img{
     margin-left: 200px;
     margin-top: -100px;
 }
+
+.botao{
+background-color: #0F482F;
+  padding: 16px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-left: 400px;
+
+}
