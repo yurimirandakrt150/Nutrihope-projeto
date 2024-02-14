@@ -128,6 +128,7 @@ div.resultados h2{
 div.porque{
     float: left;
     max-width: 1200px;
+    text-align: justify;
 }
 
 div.resultados{
@@ -135,7 +136,7 @@ div.resultados{
 }
 
 .resultados{
-    background-color: #EBE2D9;
+    background-color: hsla(30, 31%, 89%, 0.4);
     padding: 20px;
     border-radius: 20px;
 }
@@ -150,7 +151,6 @@ div.resultados{
     display: block;
     max-width: 500px;
     border-radius: 30px;
-    border: 1px solid gray;
 }
 ol li:before {
     content: counter(item) ". ";
