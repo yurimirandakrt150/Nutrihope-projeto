@@ -13,9 +13,15 @@
 header {
     background-color: #0F482F;
     color: aliceblue;
-    width: 100%;    
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    overflow: hidden;
 }
 
+main{
+    margin-top: 65px;
+}
 a {
     text-decoration: none;
     color: white;
@@ -64,7 +70,7 @@ main{
 footer {
     height: 60px;
     width: 100%;
-    position: fixed;
+    position: static;
     bottom: 0;
     background-color: #0F482F;
     margin-top: 50px;
@@ -119,6 +125,8 @@ div.comofunciona h2{
 
 div.porque h2{
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 div.resultados h2{
@@ -128,6 +136,7 @@ div.resultados h2{
 div.porque{
     float: left;
     max-width: 1200px;
+    text-align: justify;
 }
 
 div.resultados{
@@ -135,7 +144,7 @@ div.resultados{
 }
 
 .resultados{
-    background-color: #EBE2D9;
+    background-color:  	hsl(30, 31%, 89%, 0.4);
     padding: 20px;
     border-radius: 20px;
 }
@@ -150,7 +159,6 @@ div.resultados{
     display: block;
     max-width: 500px;
     border-radius: 30px;
-    border: 1px solid gray;
 }
 ol li:before {
     content: counter(item) ". ";
