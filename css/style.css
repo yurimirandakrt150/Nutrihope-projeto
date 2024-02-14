@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: "Comfortaa", sans-serif; font-family: "Comfortaa", sans-serif;
+    font-family: Confortaa, sans-serif;
+}
+
+@font-face{
+    font-family: Confortaa;
+    src: url(../font/Comfortaa-Light.ttf);
 }
 
 header {
@@ -72,26 +77,92 @@ footer img{
     padding: 5px;
 }
 
-.titulo{
-  font-size: 40px;
-  font-weight: 906px;
-  line-height: 252px;
-  margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
+p {
+    text-align: justify;
+}
+
+.nutrisocial{
+    background-image: url("../images/fundo.jpg");
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
 
 }
 
-.titulo2{
-    font-size: 20px;
-    white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
-    margin-left: 200px;
-    margin-top: -100px;
+.nutrisocial div{
+    margin: 40px;
+    display: table;
+
+}
+.nutrisocial div p{
+    width: 700px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.botao{
-background-color: #0F482F;
-  padding: 16px 33px;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-left: 400px;
+.nutrisocial div h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
 
+div{
+    counter-reset: item;
+}
+
+div.comofunciona h2{
+    text-align: center;
+}
+
+div.porque h2{
+    text-align: center;
+}
+
+div.resultados h2{
+    text-align: center;
+}
+
+div.porque{
+    float: left;
+    max-width: 1200px;
+}
+
+div.resultados{
+    float: right;
+}
+
+.resultados{
+    background-color: #EBE2D9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.resultados img{
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.obesidade{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    font-weight: bold;
+}
+
+.comecebotao{
+    background-color: #0F482F;
+    padding: 16px 33px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: auto;
+    display: block;
 }
