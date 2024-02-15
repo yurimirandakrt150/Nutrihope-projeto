@@ -65,6 +65,7 @@ footer {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    vertical-align: baseline
 }
 
 footer img{
@@ -85,13 +86,22 @@ footer img{
     white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
     margin-left: 200px;
     margin-top: -100px;
+    display: flex;
 }
 
 .botao{
-background-color: #0F482F;
+  background-color: #0F482F;
   padding: 16px 33px;
   border-radius: 8px;
   text-decoration: none;
   margin-left: 400px;
+}
 
+.paragrafos{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_botao{
+   margin-top: -270px;
 }
