@@ -90,7 +90,7 @@ footer img{
 }
 
 .botao{
-  background-color: #0F482F;
+  background-color: #0F482F; /* botao configurado*/
   padding: 16px 33px;
   border-radius: 8px;
   text-decoration: none;
