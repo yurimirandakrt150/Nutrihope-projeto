@@ -76,6 +76,7 @@ footer {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    vertical-align: baseline
 }
 
 footer img{
@@ -83,94 +84,26 @@ footer img{
     padding: 5px;
 }
 
-p {
-    text-align: justify;
-}
-
-.nutrisocial{
-    background-image: url("../images/fundo.jpg");
-    background-size: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
-    height: 300px;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+.titulo{
+  font-size: 40px;
+  font-weight: 906px;
+  line-height: 252px;
+  margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
 
 }
 
-.nutrisocial div{
-    margin: 40px;
-    display: table;
-
-}
-.nutrisocial div p{
-    width: 700px;
-    max-width: 100%;
-    max-height: 100%;
+.titulo2{
+    font-size: 20px;
+    white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
+    margin-left: 200px;
+    margin-top: -100px;
 }
 
-.nutrisocial div h2{
-    text-align: center;
-    padding-bottom: 20px;
-}
+.botao{
+background-color: #0F482F;
+  padding: 16px 33px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-left: 400px;
 
-div{
-    counter-reset: item;
-}
-
-div.comofunciona h2{
-    text-align: center;
-}
-
-div.porque h2{
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-div.resultados h2{
-    text-align: center;
-}
-
-div.porque{
-    float: left;
-    max-width: 1200px;
-    text-align: justify;
-}
-
-div.resultados{
-    float: right;
-}
-
-.resultados{
-    background-color:  	hsl(30, 31%, 89%, 0.4);
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.resultados img{
-    max-width: 300px;
-    border-radius: 20px;
-}
-
-.obesidade{
-    margin: auto;
-    display: block;
-    max-width: 500px;
-    border-radius: 30px;
-}
-ol li:before {
-    content: counter(item) ". ";
-    counter-increment: item;
-    font-weight: bold;
-}
-
-.comecebotao{
-    background-color: #0F482F;
-    padding: 16px 33px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin: auto;
-    display: block;
 }
