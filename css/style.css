@@ -13,7 +13,10 @@
 header {
     background-color: #0F482F;
     color: aliceblue;
-    width: 100%;    
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    overflow: hidden;
 }
 
 a {
@@ -59,12 +62,13 @@ li {
 
 main{
     padding: 5px;
+    margin-top: 65px;
 }
 
 footer {
     height: 60px;
     width: 100%;
-    position: fixed;
+    position: static;
     bottom: 0;
     background-color: #0F482F;
     margin-top: 50px;
@@ -90,12 +94,12 @@ p {
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
-
 }
 
 .nutrisocial div{
+    float: left;
     margin: 40px;
-    display: table;
+    display: block;
 
 }
 .nutrisocial div p{
@@ -114,25 +118,32 @@ div{
 }
 
 div.comofunciona h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
 }
 
 div.porque h2{
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 div.resultados h2{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 div.porque{
     float: left;
-    max-width: 1200px;
+    max-width: 1100px;
     text-align: justify;
+    margin-left: 40px;
 }
 
 div.resultados{
     float: right;
+    margin-right: 35px;
 }
 
 .resultados{
@@ -145,12 +156,17 @@ div.resultados{
     max-width: 300px;
     border-radius: 20px;
 }
+.imgresultados{
+    padding-bottom: 20px;
+}
 
 .obesidade{
     margin: auto;
     display: block;
     max-width: 500px;
     border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 ol li:before {
     content: counter(item) ". ";
@@ -163,6 +179,26 @@ ol li:before {
     padding: 16px 33px;
     border-radius: 8px;
     text-decoration: none;
+    color:#ffffff;
     margin: auto;
     display: block;
+}
+
+.comofunciona{
+    max-width: 1500px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.melhorealimentacao{
+    max-width: 1500px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: hsla(30, 31%, 89%, 0.4);
+}
+
+.melhorealimentacao h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
