@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: "Comfortaa", sans-serif; font-family: "Comfortaa", sans-serif;
+    font-family: Comfortaa, sans-serif
 }
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../font/Comfortaa-Regular.ttf);
+ }
 
 header {
     background-color: #0F482F;
@@ -96,23 +101,4 @@ background-color: #0F482F;
   text-decoration: none;
   margin-left: 400px;
 
-}
-
-.comofunciona{
-    max-width: 1500px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.melhorealimentacao{
-    max-width: 1500px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: hsla(30, 31%, 89%, 0.4);
-}
-
-.melhorealimentacao h2{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
 }
