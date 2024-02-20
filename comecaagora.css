@@ -5,6 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-size: 15px;
+}
+
+
+.Inicio a{
+    color: white;
+    text-decoration: none;
 }
 
 .navegação{
