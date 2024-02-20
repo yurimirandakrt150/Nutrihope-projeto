@@ -2,26 +2,15 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Confortaa, sans-serif;
-}
-
-@font-face{
-    font-family: Confortaa;
-    src: url(../font/Comfortaa-Light.ttf);
+    font-family: "Comfortaa", sans-serif; font-family: "Comfortaa", sans-serif;
 }
 
 header {
     background-color: #0F482F;
     color: aliceblue;
-    width: 100%;
-    position: fixed;
-    top: 0; 
-    overflow: hidden;
+    width: 100%;    
 }
 
-main{
-    margin-top: 65px;
-}
 a {
     text-decoration: none;
     color: white;
@@ -82,6 +71,14 @@ footer {
 footer img{
     object-fit: cover;
     padding: 5px;
+}
+
+.titulo{
+  font-size: 40px;
+  font-weight: 906px;
+  line-height: 252px;
+  margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
+
 }
 
 .titulo{
