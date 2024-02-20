@@ -1,0 +1,121 @@
+p {
+    text-align: justify;
+}
+
+.nutrisocial{
+    background-image: url("../images/fundo.jpg");
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.nutrisocial div{
+    float: left;
+    margin: 40px;
+    display: block;
+
+}
+.nutrisocial div p{
+    width: 700px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nutrisocial div h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div{
+    counter-reset: item;
+}
+
+div.comofunciona h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.porque h2{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.resultados h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div.porque{
+    float: left;
+    max-width: 1100px;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+div.resultados{
+    float: right;
+    margin-right: 35px;
+}
+
+.resultados{
+    background-color: hsla(30, 31%, 89%, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.resultados img{
+    max-width: 300px;
+    border-radius: 20px;
+}
+.imgresultados{
+    padding-bottom: 20px;
+}
+
+.obesidade{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    font-weight: bold;
+}
+
+.comecebotao{
+    background-color: #0F482F;
+    padding: 16px 33px;
+    border-radius: 8px;
+    text-decoration: none;
+    color:#ffffff;
+    margin: auto;
+    display: block;
+}
+
+.comofunciona{
+    max-width: 1500px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.melhorealimentacao{
+    max-width: 1500px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: hsla(30, 31%, 89%, 0.4);
+}
+
+.melhorealimentacao h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
