@@ -22,7 +22,7 @@
                     <ul>
                         <li><a href="comofunciona.html">Como funciona</a></li>
                         <li><a href="sounutri.html">Sou Nutri</a></li>
-                        <li><a href="#">Dicas e ferramentas</a></li>
+                        <li><a href="dicasEferramentas.html">Dicas e ferramentas</a></li>
                         <li><a href="#">Quero começar</a></li>
                     </ul>                    
                 </div>
@@ -72,13 +72,13 @@
                 <img class="slide" src="images/result_1.jpeg"/>
                 <img class="slide" src="images/result_2.jpeg"/>
                 <img class="slide" src="images/result_3.jpeg"/>
-            </div>
-            <div>
-                <img class="slide2" src="images/result_1.jpeg"/>
-                <img class="slide2" src="images/result_2.jpeg"/>
-                <img class="slide2" src="images/result_3.jpeg"/>
-            </div>
-            
+                <img class="slide" src="images/result_4.jpeg"/>
+                <img class="slide" src="images/result_5.jpeg"/>
+                <img class="slide" src="images/result_6.jpeg"/>
+                <img class="slide" src="images/result_7.jpeg"/>
+                <img class="slide" src="images/result_8.jpeg"/>
+                <img class="slide" src="images/result_9.jpeg"/>
+            </div> 
         </div>
         <script>
             var slideIndex = 0;
@@ -97,22 +97,6 @@
             }
         </script>
         
-        <script>
-            var slide2Index = 0;
-            carousel();
-    
-            function carousel() {
-            var i;
-            var x = document.getElementsByClassName("slide2") ;
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            slide2Index++;
-            if (slide2Index > x.length) {slide2Index = 1}
-            x[slide2Index-1].style.display = "block";
-            setTimeout(carousel, 4000); // Change image every 4 seconds
-            }
-        </script>
         
     </main>
     <footer>
