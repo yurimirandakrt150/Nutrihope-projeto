@@ -1,9 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Comfortaa", sans-serif; font-family: "Comfortaa", sans-serif;
+    border: 0;
+    font-family: Comfortaa, sans-serif
 }
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../font/Comfortaa-Regular.ttf);
+ }
 
 header {
     background-color: #0F482F;
@@ -54,6 +59,7 @@ li {
 
 main{
     padding: 5px;
+    margin-top: 65px;
 }
 
 footer {
