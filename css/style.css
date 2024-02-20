@@ -81,14 +81,6 @@ footer img{
 
 }
 
-.titulo{
-  font-size: 40px;
-  font-weight: 906px;
-  line-height: 252px;
-  margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
-
-}
-
 .titulo2{
     font-size: 20px;
     white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
