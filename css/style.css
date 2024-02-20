@@ -59,7 +59,7 @@ main{
 footer {
     height: 60px;
     width: 100%;
-    position: fixed;
+    position: static;
     bottom: 0;
     background-color: #0F482F;
     margin-top: 50px;
