@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
     font-family: "Comfortaa", sans-serif; font-family: "Comfortaa", sans-serif;
 }
 
@@ -62,7 +62,7 @@ footer {
     position: static;
     bottom: 0;
     background-color: #0F482F;
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     vertical-align: baseline
@@ -74,15 +74,15 @@ footer img{
 }
 
 .titulo{
-  font-size: 40px;
-  font-weight: 906px;
+  font-size: 2.5em;
+  font-weight: 900;
   line-height: 252px;
   margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
 
 }
 
 .titulo2{
-    font-size: 20px;
+    font-size: 1.2em;
     white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
     margin-left: 200px;
     margin-top: -100px;
@@ -92,16 +92,20 @@ footer img{
 .botao{
   background-color: #0F482F; /* botao confiug*/
   padding: 16px 33px;
-  border-radius: 8px;
+  border-radius: 15px;
   text-decoration: none;
-  margin-left: 400px;
+
 }
 
 .paragrafos{
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
 }
 
 .container_botao{
-   margin-top: -270px;
+   padding: 10px;
+    margin-top: 20px;
+   height: auto;
 }
+
