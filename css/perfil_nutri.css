@@ -1,0 +1,10 @@
+.PerfilNutri{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+}
+
+.ImagemHealth img{
+    max-width: 600px;
+    width: auto;
+}
