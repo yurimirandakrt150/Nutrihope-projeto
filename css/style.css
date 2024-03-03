@@ -5,6 +5,11 @@
     font-family: Comfortaa, sans-serif
 }
 
+body{
+   
+        background-color: rgb(230, 230, 230);
+}
+
 @font-face {
     font-family: Comfortaa;
     src: url(../font/Comfortaa-Regular.ttf);
@@ -79,38 +84,48 @@ footer img{
     padding: 5px;
 }
 
-.titulo{
-  font-size: 2.5em;
-  font-weight: 900;
-  line-height: 252px;
-  margin-left: 300px; /*usei o margin left pra dar uma alinhada no titulo*/
+.inicio{
+    display: flex;
+    align-items: center;
+    padding: 24px 80px 128px 80px;
+    margin: 100px;
+    position: relative;
+    background-color: white;
+    border-radius: 100px;
+    
+
+ 
+}
+
+p{
+    line-height: 150%;
+    margin-bottom: 33px;
+    text-align: center;
 
 }
 
-.titulo2{
-    font-size: 1.2em;
-    white-space: pre-line; /* usei pra dar um espaço entre os paragrafos*/
-    margin-left: 200px;
-    margin-top: -100px;
+h1{
+    margin-bottom: 33px;
+    text-align: center;
+    padding: 2px;
+    font-size: 50px;
+    color: black;
+}
+
+.textos{
+    padding: 90px;
 }
 
 .botao{
-background-color: #0F482F;
-  padding: 16px 33px;
-  border-radius: 15px;
-  text-decoration: none;
-
+    background-color: #0F482F;
+    color: white;
+    text-underline-offset: 4px;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 8px;
 }
 
-.paragrafos{
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
+.classe_botao{
+    text-align: center;
+    padding: 10px;
 }
-
-.container_botao{
-   padding: 10px;
-    margin-top: 20px;
-   height: auto;
-}
-
