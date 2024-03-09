@@ -8,6 +8,7 @@
 body{
    
         background-color: rgb(230, 230, 230);
+        min-width: 100vh;
 }
 
 @font-face {
@@ -71,9 +72,7 @@ footer {
     height: 60px;
     width: 100%;
     position: static;
-    bottom: 0;
     background-color: #0F482F;
-    margin-top: 80px;
     display: flex;
     justify-content: center;
     vertical-align: baseline
@@ -95,6 +94,16 @@ footer img{
     
 
  
+}
+
+.colaboradores{
+    display: flex;
+    align-items: center;
+    padding: 24px 80px 128px 80px;
+    margin: 300px;
+    position: relative;
+    border-radius: 100px;
+    background-color: #bdbcbc;
 }
 
 p{
@@ -128,4 +137,13 @@ h1{
 .classe_botao{
     text-align: center;
     padding: 10px;
+}
+
+.botao:hover{
+    background-color: #0c3825;
+}
+
+.cabecalho_menu a:hover{
+    color: #bdbcbc;
+    text-decoration: none;
 }

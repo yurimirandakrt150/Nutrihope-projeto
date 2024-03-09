@@ -119,3 +119,7 @@ ol li:before {
     padding-top: 20px;
     text-align: center;
 }
+.cabecalho_menu a:hover{
+    color: #bdbcbc;
+    text-decoration: none;
+}

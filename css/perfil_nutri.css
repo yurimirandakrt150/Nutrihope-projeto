@@ -33,3 +33,8 @@
 .PerfilNutri img {
     border-radius: 7rem;
 }
+
+.cabecalho_menu a:hover{
+    color: #bdbcbc;
+    text-decoration: none;
+}
