@@ -19,6 +19,7 @@ p {
     display: block;
 
 }
+
 .nutrisocial div p{
     width: 700px;
     max-width: 100%;
@@ -73,6 +74,7 @@ div.resultados{
     max-width: 300px;
     border-radius: 20px;
 }
+
 .imgresultados{
     padding-bottom: 20px;
 }
@@ -85,6 +87,7 @@ div.resultados{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 ol li:before {
     content: counter(item) ". ";
     counter-increment: item;
