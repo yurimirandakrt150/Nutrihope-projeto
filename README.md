@@ -20,7 +20,6 @@ Este é um projeto integrador desenvolvido como parte do curso **Talento Cloud**
 Este projeto foi desenvolvido por:
 - [Fabio Lopes](https://github.com/FabioLopesFoz).
 - [Hiago Oliveira Brito](https://github.com/Dyago96).
-- [Wagner Camargo Vaz](https://github.com/waguiner89).
 - [Wellerson Tavares Cordeiro](https://github.com/Welsete).
 - [Yuri Miranda Simplicio](https://github.com/yurimirandakrt150).
 
