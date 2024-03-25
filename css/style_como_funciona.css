@@ -2,6 +2,13 @@ p {
     text-align: justify;
 }
 
+main{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .nutrisocial{
     background-image: url("../images/fundo.jpg");
     background-size: 100%;
@@ -14,10 +21,12 @@ p {
 }
 
 .nutrisocial div{
-    float: left;
     margin: 40px;
-    display: block;
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: start;
 }
 
 .nutrisocial div p{
@@ -53,39 +62,56 @@ div.resultados h2{
 }
 
 div.porque{
-    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 1100px;
     text-align: justify;
     margin-left: 40px;
 }
 
 div.resultados{
-    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     margin-right: 35px;
 }
 
+section.porque_result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .resultados{
-    background-color: hsla(30, 31%, 89%, 0.4);
+    background-color: hsla(0, 0%, 88%, 0.9);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
+    max-height: 375px;
 }
 
 .resultados img{
     max-width: 300px;
-    border-radius: 20px;
+    max-height: 300px;
+    border-radius: 15px;
 }
 
 .imgresultados{
     padding-bottom: 20px;
 }
 
+div.comofunciona{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .obesidade{
-    margin: auto;
-    display: block;
-    max-width: 500px;
-    border-radius: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    max-width: 700px;
+    border-radius: 50px;
+    margin-bottom: 30px;
 }
 
 ol li:before {
@@ -94,15 +120,6 @@ ol li:before {
     font-weight: bold;
 }
 
-.comecebotao{
-    background-color: #0F482F;
-    padding: 16px 33px;
-    border-radius: 8px;
-    text-decoration: none;
-    color:#ffffff;
-    margin: auto;
-    display: block;
-}
 
 .comofunciona{
     max-width: 1500px;
@@ -114,13 +131,21 @@ ol li:before {
     max-width: 1500px;
     margin-left: 40px;
     margin-right: 40px;
-    background-color: hsla(30, 31%, 89%, 0.4);
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: hsla(0, 0%, 88%, 0.9);
+    border-radius: 15px;
 }
 
 .melhorealimentacao h2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     padding-bottom: 20px;
     padding-top: 20px;
-    text-align: center;
 }
 .cabecalho_menu a:hover{
     color: #bdbcbc;
