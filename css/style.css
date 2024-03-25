@@ -63,11 +63,6 @@ li {
     text-align: right;
 }
 
-main{
-   
-    margin-top: 65px;
-}
-
 footer {
 
     height: 60px;
@@ -101,7 +96,7 @@ footer img{
     display: flex;
     align-items: center;
     padding: 24px 80px 128px 80px;
-    margin: 300px;
+    margin: 100px;
     position: relative;
     border-radius: 100px;
     background-color: #bdbcbc;
