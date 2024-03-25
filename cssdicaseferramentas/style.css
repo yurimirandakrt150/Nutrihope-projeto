@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Comfortaa, sans-serif;
+}
+
+body{
+   
+        background-color: rgb(230, 230, 230);
+        min-width: 100vh;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../font/Comfortaa-Regular.ttf);
+ }
+
+header {
+    background-color: #0F482F;
+    color: aliceblue;
+    width: 100%;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.cabecalho_container {
+    display: flex;
+    height: 65px;
+}
+
+.cabecalho_menu{
+    margin: 1rem 1rem;  
+    display: flex;
+}
+
+.cabecalho_menu a{
+    display: flex;
+}
+
+.cabecalho_menu img{
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cabecalho_itens {
+    display: flex;
+    right: 0;
+    position: absolute;
+    margin-right: 15px;
+}
+
+.cabecalho_itens li{
+    padding: 5px;
+    display: inline-block;
+    text-align: right;
+}
+
+footer {
+
+    height: 60px;
+    width: 100%;
+    position: static;
+    background-color: #0F482F;
+    display: flex;
+    justify-content: center;
+    vertical-align: baseline
+}
+
+footer img{
+    object-fit: cover;
+    padding: 5px;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    padding: 24px 80px 128px 80px;
+    margin: 100px;
+    position: relative;
+    background-color: white;
+    border-radius: 100px;
+    
+
+ 
+}
+
+.colaboradores{
+    display: flex;
+    align-items: center;
+    padding: 24px 80px 128px 80px;
+    margin: 100px;
+    position: relative;
+    border-radius: 100px;
+    background-color: #bdbcbc;
+}
+
+p{
+    line-height: 150%;
+    margin-bottom: 33px;
+    text-align: center;
+
+}
+
+h1{
+    margin-bottom: 33px;
+    text-align: center;
+    padding: 2px;
+    font-size: 50px;
+    color: black;
+}
+
+.textos{
+    padding: 90px;
+}
+
+.botao{
+    background-color: #0F482F;
+    color: white;
+    text-underline-offset: 4px;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.classe_botao{
+    text-align: center;
+    padding: 10px;
+}
+
+.botao:hover{
+    background-color: #0c3825;
+}
+
+.cabecalho_menu a:hover{
+    color: #bdbcbc;
+    text-decoration: none;
+}
+.SouNutri {
+    text-align: center;
+}
+
+.colaboradores{
+    background-color: white;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.PerfilNutri{
+    gap: 2rem;
+    text-align: center;
+     background-color: #0F482F;
+    display: flex;
+    justify-content: center;
+    border-radius: 3rem;
+    padding: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+.Perfil_Individual_Nutri {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.PerfilNutri img {
+    border-radius: 7rem;
+}
+.calculadora_imc {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.calculadora_imc form {
+    text-align: center; 
+}
+
+.buttonscal {
+    margin-top: 10px; 
+}
+
+.imagem_principaldicaseferramentas,
+.calculadora_imc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.calculadora_imc {
+    flex-direction: column; 
+}
+
+.calculadora_imc form {
+    text-align: center; 
+}
+
+.buttonscal {
+    margin-top: 10px; 
+}
+.buttonscal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+}
