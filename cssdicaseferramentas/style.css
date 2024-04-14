@@ -195,13 +195,11 @@ h1{
     margin-top: 10px; 
 }
 
-.imagem_principaldicaseferramentas,
-.calculadora_imc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; 
+.imagem_principaldicaseferramentas img {
+    width: 100%; 
+    height: auto; 
 }
+
 
 .calculadora_imc {
     flex-direction: column; 
@@ -219,4 +217,76 @@ h1{
     justify-content: center;
     align-items: center;
     margin-top: 10px; 
+}
+
+.buttonscal button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.buttonscal button:hover {
+    background-color: #45a049; 
+}
+
+.calculadora_imc {
+    background-color: #0a5200; 
+    padding: 20px; 
+    color: white;
+}
+
+.calculadora_imc label {
+    display: block; 
+    font-weight: bold; 
+}
+
+.calculadora_imc input[type="number"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulosimpl {
+    flex-basis: 100%;
+}
+
+.textsimpl {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(50% - 10px);
+    padding: 20px;
+}
+
+.textsimpl h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.textsimpl p {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(50% - 10px);
+    margin-right: 10px;
+}
+.textsimpl {
+    display: flex;
+    flex-direction: column; /* Empilhar elementos verticalmente */
+    justify-content: center; /* Centralizar os elementos horizontalmente */
+    align-items: center; /* Centralizar os elementos verticalmente */
+    flex-basis: calc(50% - 10px);
+    padding: 20px;
 }
