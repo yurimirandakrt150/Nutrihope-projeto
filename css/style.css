@@ -75,12 +75,10 @@ li {
 /* Rodapé */
 footer {
     height: 60px;
-    width: 100%;
-    position: static;
     background-color: #0F482F;
     display: flex;
     justify-content: center;
-    vertical-align: baseline;
+
 }
 
 footer img {
@@ -92,23 +90,12 @@ footer img {
 .inicio {
     display: flex;
     align-items: center;
-    padding: 24px 80px 128px 80px;
-    margin: 100px;
+ 
     position: relative;
     background-color: white;
-    border-radius: 100px;
+   ;
 }
 
-/* Seção de colaboradores */
-.colaboradores {
-    display: flex;
-    align-items: center;
-    padding: 24px 80px 128px 80px;
-    margin: 100px;
-    position: relative;
-    border-radius: 100px;
-    background-color: #bdbcbc;
-}
 
 /* Parágrafos */
 p {
@@ -156,44 +143,3 @@ h1 {
     text-decoration: none;
 }
 
-/* Sou Nutri */
-.SouNutri {
-    text-align: center;
-}
-
-/* Container dos colaboradores */
-.colaboradores {
-    background-color: white;
-    border-radius: 3rem;
-    text-align: center;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 50px;
-    display: inline-block;
-}
-
-/* Perfil dos nutricionistas */
-.PerfilNutri {
-    gap: 2rem;
-    text-align: center;
-    background-color: #0F482F;
-    display: flex;
-    justify-content: center;
-    border-radius: 3rem;
-    padding: 4rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: 3rem;
-}
-
-/* Perfil individual dos nutricionistas */
-.Perfil_Individual_Nutri {
-    padding: 1rem;
-    background-color: white;
-    border-radius: 2rem;
-}
-
-/* Imagem do perfil dos nutricionistas */
-.PerfilNutri img {
-    border-radius: 7rem;
-}
