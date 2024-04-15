@@ -44,44 +44,71 @@ div{
     counter-reset: item;
 }
 
-div.comofunciona h2{
+.comofunciona h2{
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
 }
 
-div.porque h2{
+.porque h2{
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
-div.resultados h2{
+.resultados h2{
     text-align: center;
     padding-bottom: 10px;
 }
 
-div.porque{
+.porque{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     max-width: 1400px;
     text-align: justify;
     margin-left: 40px;
+    height: 363px;
+    overflow: hidden;
+    position: relative;
 }
 
-div.resultados{
+.porque.active{
+    height: auto;
+}
+
+.porque::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(230, 230, 230, 0.800));
+}
+
+.porque.active::before{
+    visibility: hidden;
+}
+
+.porque_vermais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultados{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     margin-right: 35px;
+    margin-left: 10px;
 }
 
-section.porque_result{
+.porque_result{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .resultados{
@@ -120,7 +147,6 @@ ol li:before {
     font-weight: bold;
 }
 
-
 .comofunciona{
     margin-left: 40px;
     margin-right: 40px;
@@ -148,4 +174,23 @@ ol li:before {
 .cabecalho_menu a:hover{
     color: #bdbcbc;
     text-decoration: none;
+}
+
+#mais{
+    display: inline;
+}
+
+#resumo{
+    display: inline;
+}
+
+#btnVerMais{
+    margin-left: 40px;
+    border:none;
+    padding: 10px;
+    background-color: hsl(0, 0%, 86%);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    width: 96.7%;
 }
