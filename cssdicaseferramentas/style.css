@@ -220,7 +220,7 @@ h1{
 }
 
 .buttonscal button {
-    background-color: #4CAF50;
+    background-color: #0F482F;
     color: white; 
     padding: 10px 20px; 
     font-size: 16px; 
@@ -229,11 +229,11 @@ h1{
 }
 
 .buttonscal button:hover {
-    background-color: #45a049; 
+    background-color: #0F482F; 
 }
 
 .calculadora_imc {
-    background-color: #0a5200; 
+    background-color: #0F482F; 
     padding: 20px; 
     color: white;
 }
@@ -265,7 +265,7 @@ h1{
 }
 
 .textsimpl h1 {
-    background-color: #4CAF50;
+    background-color: #0F482F;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -274,7 +274,7 @@ h1{
 }
 
 .textsimpl p {
-    background-color: #4CAF50;
+    background-color: #0F482F;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -284,9 +284,32 @@ h1{
 }
 .textsimpl {
     display: flex;
-    flex-direction: column; /* Empilhar elementos verticalmente */
-    justify-content: center; /* Centralizar os elementos horizontalmente */
-    align-items: center; /* Centralizar os elementos verticalmente */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     flex-basis: calc(50% - 10px);
     padding: 20px;
+}
+#resultado {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #0a5200;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#resultado p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
 }

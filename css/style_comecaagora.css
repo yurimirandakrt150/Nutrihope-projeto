@@ -9,7 +9,7 @@
 }
 
 .Inicio a{
-    color: black;
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -30,7 +30,7 @@
 .navegação > li a {
     text-decoration: none;
     font-size: 15px;
-    color: black;
+    color: aliceblue;
 }
 
 .navegação > li a :hover{
@@ -42,8 +42,13 @@ header{
     align-items: center;
     justify-content: space-around;
     width: 100%;
+<<<<<<< HEAD:css/style_comecaagora.css
     height: 40px;
     background-color:#0f4820;
+=======
+    height: 60px;
+    background-color: #0F482F;
+>>>>>>> e25a90fd0782d356b55862e2382e720ec49e4e46:comecaagora.css
 }
 
 body {
@@ -54,7 +59,7 @@ body {
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: white;
+    color: aliceblue;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -88,9 +93,13 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 40px 45px;
+<<<<<<< HEAD:css/style_comecaagora.css
     background: #0f4820;
+=======
+    background-color: #0F482F;
+>>>>>>> e25a90fd0782d356b55862e2382e720ec49e4e46:comecaagora.css
     border-radius: 18px;
-    box-shadow: 0px 5px 25px rgba(201, 218, 201, 0.77);
+    box-shadow: 0px 5px 25px rgba(1, 74, 1, 0.77);
 }
 
 .card-login > h1 {
@@ -112,10 +121,9 @@ body {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: black;
     color: rgb(82, 116, 82);
     font-size: 12pt;
-    box-shadow: 0px 10px 40px rgb(70, 73, 70);
+    box-shadow: 0px 10px 40px rgb(1, 69, 1);
     outline: none;
     box-sizing: border-box;
 }
@@ -150,7 +158,6 @@ body {
 }
 
 .bt-paciente{
-    cursor: pointer;
     width: 50%;
     padding: 16px 0px;
     margin: 10px;
@@ -159,5 +166,4 @@ body {
     outline: none;
     text-transform: uppercase;
     color: #171a18d4
- 
 }
