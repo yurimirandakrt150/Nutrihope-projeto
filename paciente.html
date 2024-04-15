@@ -4,52 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Paciente</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(22, 43, 22);
-        }
-        .box{
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.8); 
-            padding: 15px;
-            border-radius: 10px;
-            width: 25%;
-            color: white;
-
-        }
-
-        fieldset{
-            border: 3px solid white;
-        }
-
-        legend{
-            border: 1px solid white;
-            padding: 10px;
-            text-align: center;
-            background-color: green;
-            border-radius: 5px;
-            color: white;
-        }
-
-        .inputbox{
-            position: relative;
-        }
-
-        .inputUser{
-            background: none;
-            border: none;
-            border-bottom: 1px solid white;
-            outline: none;
-            color: white;
-            font-size: 15px;
-            width: 100%;
-            letter-spacing: 2px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style_paciente.css" />
+    <script src="./script/paciente.js"></script>
 </head>
 <body>
     <div class="box">
@@ -103,7 +59,7 @@
                 <input type="radio" id="Renda" name="Renda" value="Renda" required>
                 <label for="Renda">a cima de 2000</label>
                 <br><br>
-                <input type="submit" name="submit" id="submit">
+                <button>Enivar</button>
             </fieldset>
         </form>
     </div>

@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0f4820; 
+    padding: 15px;
+    border-radius: 10px;
+    width: 25%;
+    color: white;
+
+}
+
+fieldset{
+    border: 3px solid white;
+}
+
+legend{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: #0f4820;
+    border-radius: 5px;
+    color: white;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+}
