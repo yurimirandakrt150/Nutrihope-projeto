@@ -17,7 +17,7 @@ function carrosel() {
         slideIndex = 1
     }
     
-    // Coloca a imagens selecionada como "displau:block"
+    // Coloca a imagens selecionada como "display:block"
     x[slideIndex-1].style.display = "block";
 
     // Troca a imagem a cada 5 Segundos
