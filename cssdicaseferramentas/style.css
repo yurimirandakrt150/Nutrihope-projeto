@@ -220,7 +220,7 @@ h1{
 }
 
 .buttonscal button {
-    background-color: #4CAF50;
+    background-color: #0F482F;
     color: white; 
     padding: 10px 20px; 
     font-size: 16px; 
@@ -229,11 +229,11 @@ h1{
 }
 
 .buttonscal button:hover {
-    background-color: #45a049; 
+    background-color: #0F482F; 
 }
 
 .calculadora_imc {
-    background-color: #0a5200; 
+    background-color: #0F482F; 
     padding: 20px; 
     color: white;
 }
@@ -265,7 +265,7 @@ h1{
 }
 
 .textsimpl h1 {
-    background-color: #4CAF50;
+    background-color: #0F482F;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -274,7 +274,7 @@ h1{
 }
 
 .textsimpl p {
-    background-color: #4CAF50;
+    background-color: #0F482F;
     color: white;
     padding: 10px;
     border-radius: 5px;

@@ -1,7 +1,7 @@
 // selecionei o elemento footer para inserir a div antes dele
-var footerElement = document.querySelector('footer');
+var footer_div = document.querySelector('footer');
 
-// criação da div adicionei flex box e fiz os procedimentos com align e justify center para centralizar os elementos
+// criei a div adicionei flex box e fiz os procedimentos com align e justify center para centralizar os elementos
 var novaDiv = document.createElement('div');
 novaDiv.classList.add('segunda-sessao');
 novaDiv.style.backgroundColor = '#lightgray';
@@ -22,7 +22,7 @@ var titulo = document.createElement('h2');
 titulo.textContent = "Por que escolher a NutriHope como parceira ?";
 textoDiv.appendChild(titulo);
 var texto = document.createElement('p');
-texto.textContent = "Nós da NutriHope estamos comprometidos em fornecer soluções nutricionais de alta qualidade, com preços acessíveis e atendimento personalizado. Nossa equipe de nutricionistas qualificados está aqui para ajudar você a alcançar seus objetivos de saúde e bem-estar. Conte conosco para orientá-lo em sua jornada para uma vida mais saudável e equilibrada.";
+texto.textContent = "Nós da NutriHope estamos comprometidos em fornecer soluções nutricionais de alta qualidade, com preços acessíveis e atendimento personalizado. Nossa equipe de nutricionistas qualificados está aqui para ajudar você a alcançar seus objetivos de saúde e bem-estar. Conte conosco para orientá-lo em sua jornada para uma vida mais saudável e equilibrada, todo desenvolvimento deste projeto/site foi feito e desenvolvido pelos devs Fabio Lopes, Yuri Miranda, Wellerson Tavares, Wagner Camargo e Hiago Brito  .";
 textoDiv.appendChild(texto);
 novaDiv.appendChild(textoDiv);
 
@@ -34,4 +34,4 @@ imagem.style.maxHeight = '550px';
 novaDiv.appendChild(imagem);
 
 // usei para inserir a div antes do footer
-footerElement.parentNode.insertBefore(novaDiv, footerElement);
+footer_div.parentNode.insertBefore(novaDiv, footer_div);
