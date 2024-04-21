@@ -16,6 +16,8 @@ novaDiv.style.justifyContent = 'center';
 var textoDiv = document.createElement('div');
 textoDiv.style.textAlign = 'center'; 
 textoDiv.style.marginRight = '25px';
+textoDiv.style.lineHeight = "150%"
+textoDiv.style.marginBottom = "33px"
 
 // adicionei titulo e paragrafo
 var titulo = document.createElement('h2');

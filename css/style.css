@@ -40,18 +40,21 @@ li {
 /* Container do cabeçalho */
 .cabecalho_container {
     display: flex;
-    height: 65px;
+    height: 65px; 
+    
 }
 
 /* Menu */
 .cabecalho_menu {
     margin: 1rem 1rem;
     display: flex;
+    
 }
 
 /* Imagem no menu */
 .cabecalho_menu a {
     display: flex;
+
 }
 
 .cabecalho_menu img {
