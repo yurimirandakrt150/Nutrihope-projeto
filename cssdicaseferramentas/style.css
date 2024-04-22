@@ -31,66 +31,153 @@ li {
     list-style-type: none;
 }
 
-.cabecalho_container {
+nav {
     display: flex;
-    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding-right: 30px;
 }
-
-.cabecalho_menu{
-    margin: 1rem 1rem;  
-    display: flex;
+@media (max-width: 768px){
+    nav{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }
-
-.cabecalho_menu a{
-    display: flex;
-}
-
-.cabecalho_menu img{
-    object-fit: cover;
-    margin-right: 10px;
-}
-
-.cabecalho_itens {
-    display: flex;
-    right: 0;
-    position: absolute;
-    margin-right: 15px;
-}
-
-.cabecalho_itens li{
-    padding: 5px;
-    display: inline-block;
-    text-align: right;
-}
-
-footer {
-
-    height: 60px;
-    width: 100%;
-    position: static;
-    background-color: #0F482F;
-    display: flex;
-    justify-content: center;
-    vertical-align: baseline
-}
-
-footer img{
-    object-fit: cover;
-    padding: 5px;
-}
-
-.inicio{
+.logo {
     display: flex;
     align-items: center;
-    padding: 24px 80px 128px 80px;
-    margin: 100px;
-    position: relative;
-    background-color: white;
-    border-radius: 100px;
-    
-
- 
+    padding-left: 40%;
+  }
+  
+@media (max-width: 768px){
+    .logo{
+        display: none;
+    }
 }
+  .inicio {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+  }
+  
+
+  nav ul li a:hover {
+    color: grey; 
+  }
+  
+
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+  }
+
+  @media (max-width: 700px){
+    .footerNav ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: left;
+        margin: 10px;
+    }
+}
+
+
+.footerBottom p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+@media (max-width: 768px){
+    .footerBottom{
+        display:flex;
+        flex-direction: column;
+        padding-right: 40%;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+footer {
+    background-color: #0F482F;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 700px){
+    .icon{
+        display: flex;
+        justify-content: left;
+        margin-left: 15%;
+        
+    }
+
+}
+.icon a{
+   text-decoration: none;
+   padding: 10px;
+      margin: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+
+
+.icon a i{
+    font-size: 2em;
+    color: #0F482F;
+    opacity: 0.9;
+}
+.icon a:hover{
+    background-color: rgb(139, 139, 139);
+    transition: 0.5s;
+}
+
+.icon a:hover i{
+    color: white;
+    transition: 0.5s
+}
+
 
 .colaboradores{
     display: flex;
@@ -115,6 +202,15 @@ h1{
     padding: 2px;
     font-size: 50px;
     color: black;
+}
+@media (max-width: 768px){
+    h1{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }
 
 .textos{
@@ -191,13 +287,19 @@ h1{
     text-align: center; 
 }
 
-.buttonscal {
-    margin-top: 10px; 
-}
-
 .imagem_principaldicaseferramentas img {
-    width: 100%; 
-    height: auto; 
+    display: flex;
+    width: 50%; 
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+@media (max-width: 768px){
+    .imagem_principaldicaseferramentas{
+        display:flex;
+        margin-left: -40%;
+        width: 150%;
+    }
 }
 
 
@@ -210,13 +312,11 @@ h1{
 }
 
 .buttonscal {
-    margin-top: 10px; 
-}
-.buttonscal {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 .buttonscal button {
@@ -227,6 +327,15 @@ h1{
     border: none; 
     cursor: pointer; 
 }
+@media (max-width: 768px){
+    .buttonscal{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
 
 .buttonscal button:hover {
     background-color: #0F482F; 
@@ -236,6 +345,15 @@ h1{
     background-color: #0F482F; 
     padding: 20px; 
     color: white;
+}
+@media (max-width: 768px){
+    .calculadora_imc{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }
 
 .calculadora_imc label {
@@ -263,6 +381,15 @@ h1{
     flex-basis: calc(50% - 10px);
     padding: 20px;
 }
+@media (max-width: 768px){
+    .textsimpl{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
 
 .textsimpl h1 {
     background-color: #0F482F;
@@ -271,6 +398,15 @@ h1{
     border-radius: 5px;
     margin-bottom: 10px;
     width: 100%;
+}
+@media (max-width: 768px){
+    .textsimpl h1{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }
 
 .textsimpl p {
@@ -289,6 +425,15 @@ h1{
     align-items: center; 
     flex-basis: calc(50% - 10px);
     padding: 20px;
+}
+@media (max-width: 768px){
+    .textsimpl{
+        display:flex;
+        flex-direction: column;
+        padding-right: 30%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }
 #resultado {
     margin-top: 10px;
