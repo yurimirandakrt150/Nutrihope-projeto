@@ -10,7 +10,6 @@
 /* Body */
 body {
     background-color: rgb(230, 230, 230);
-    min-width: 200vh;
 }
 
 /* Fonte */
@@ -23,8 +22,76 @@ body {
 header {
     background-color: #0F482F;
     color: aliceblue;
-    width: 100%;
+    width: 100%;    
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding-right: 30px;
+}
+@media (max-width: 768px){
+    nav {
+        display:flex;
+        flex-direction: column;
+        padding-right: 50%;
+        padding-bottom: 20px;
+        height: 9rem;
+    }
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+  }
+  
+  @media (max-width: 768px){
+    .logo{
+        display: none;
+    }
+}
+.inicio2 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  @media (max-width: 768px){
+    .inicio2 {
+        margin-top: 0px;
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 1rem;
+        margin-right: 0;
+        margin-bottom: -120px;
+    }
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+@media (max-width: 768px){
+    ul {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin-left: 150px;
+    }
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+  }
+  
+
+  nav ul li a:hover {
+    color: grey; 
+  }
+  
 
 /* Links */
 a {
