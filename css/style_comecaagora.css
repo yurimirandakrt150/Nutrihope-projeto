@@ -42,13 +42,8 @@ header{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-<<<<<<< HEAD:css/style_comecaagora.css
     height: 40px;
     background-color:#0f4820;
-=======
-    height: 60px;
-    background-color: #0F482F;
->>>>>>> e25a90fd0782d356b55862e2382e720ec49e4e46:comecaagora.css
 }
 
 body {
@@ -93,11 +88,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 40px 45px;
-<<<<<<< HEAD:css/style_comecaagora.css
     background: #0f4820;
-=======
-    background-color: #0F482F;
->>>>>>> e25a90fd0782d356b55862e2382e720ec49e4e46:comecaagora.css
     border-radius: 18px;
     box-shadow: 0px 5px 25px rgba(1, 74, 1, 0.77);
 }
