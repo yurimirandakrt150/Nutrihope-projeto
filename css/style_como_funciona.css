@@ -198,3 +198,7 @@ ol li:before {
     font-weight: bold;
     width: 96.7%;
 }
+
+.footerBottom p{
+    text-align: center;
+}
