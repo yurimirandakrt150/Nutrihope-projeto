@@ -233,8 +233,10 @@ body {
     border-radius: 20px;
     outline: none;
     text-transform: uppercase;
-    color: #070707dd;
+    color: #ffffffdd;
     cursor: pointer;
+    background-color: #0f4820;
+    text-align: center;
 }
 
 .bt-paciente{
@@ -245,5 +247,7 @@ body {
     border-radius: 20px;
     outline: none;
     text-transform: uppercase;
-    color: #171a18d4
+    color: #ffffffd4;
+    background-color: #0f4820;
+    text-align: center;
 }

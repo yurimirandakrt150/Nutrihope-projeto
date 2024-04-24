@@ -1,26 +1,29 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-image: url(/images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #0f4820; 
+    background-color: #ffffff; 
     padding: 15px;
+
     border-radius: 10px;
     width: 25%;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
 fieldset{
-    border: 3px solid white;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 legend{
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     background-color: #0f4820;
@@ -35,9 +38,9 @@ legend{
 .inputUser{
     background: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(0, 0, 0);
     outline: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     width: 100%;
     letter-spacing: 2px;
@@ -65,4 +68,9 @@ button {
         width: 100%;
     }
 
+}
+
+.primeira_imagem{
+    display: flex;
+    padding: 12vh;
 }

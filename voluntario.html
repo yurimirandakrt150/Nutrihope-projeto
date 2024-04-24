@@ -1,48 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seja Voluntario</title>
     <link rel="stylesheet" type="text/css" href="css/style_voluntario.css" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <div class="Inicio">
-            <H2>Inicio</H2>
-        </div>
-        <nav>
-            <ul class="navegação">
-                <li><a href="comofunciona.html">Como funciona</a></li>
-                <li><a href="dicasEferramentas.html">Dicas e Ferramentas</a></li>
-                <li><a href="comecaagora.html">Quero começar</a></li>
-            </ul>
-        </nav>
-    </header>
+      <nav class="cabecalho_container">
+        <div class="cabecalho_menu">
+          <a href="index.html">
+            <img
+              src="./images/nutrihopeteste.png"
+              alt="logo cabecalho NutriHope"
+            />
+          </a>
+          <div class="cabecalho_itens">
+            <ul>
+              <li><a href="comofunciona.html">Como funciona</a></li>
+              <li><a href="dicasEferramentas.html">Dicas e ferramentas</a></li>
+              <li><a href="comecaagora.html">Quero começar</a></li>
+          </ul>
+      </nav>
+      <!-- Botão do menu para telas menores -->
+      <button class="botao-header">Menu</button>
+      <!-- Menu de navegação para telas menores -->
+      <div class="menu-navegacao">
+          <a href="index.html">Inicio</a>
+          <a href="comofunciona.html">Como funciona</a>
+          <a href="dicasEferramentas.html">Dicas e ferramentas</a>
+          <a href="comecaagora.html">Quero começar</a>
+      </div>
+  </header> 
     <main>
-        <section class="prinipal">
-          <div class="titulo">
-            <h1>SER VOLUNTARIO FAZ VOCÊ ENCONTRAR A RAZÃO DE SER</h1>
+      <section class="inicio">
+        <img
+          src="./images/Doctors-rafiki.png"
+          alt="Equipenutriimagem"
+          width="580"
+          height="580"
+        />
+        <div class="textos">
+          <h1>POR QUE SER VOLUNTARIO ? </h1>
+          <p class="paragrafos">
+            Seja um voluntário nutricionista em nosso projeto e faça a diferença na jornada das pessoas em busca de uma vida saudável! Aqui, temos uma proposta que vai além de simplesmente oferecer informações sobre nutrição. Nosso objetivo é proporcionar acesso a orientações personalizadas e especializadas, com preços acessíveis, para aqueles que buscam bem-estar sem comprometer seu orçamento.
+          </p>
+          <p class="paragrafos">
+            Como voluntário nutricionista, você terá a oportunidade de fazer parte dessa iniciativa que visa transformar vidas. Através do nosso site, você poderá contribuir com seu conhecimento e experiência para ajudar os usuários a alcançarem seus objetivos de saúde e nutrição.
+
+            Além disso, oferecemos um ambiente colaborativo, onde nutricionistas como você podem se candidatar para compartilhar seus insights e conselhos com nossa comunidade. Estamos comprometidos em fornecer recursos valiosos e informações atualizadas sobre saúde, nutrição e bem-estar.
+          </p>
+          <div class="classe_botao">
+            <a class="botao" href="./formulario.html">Junte se a nós</a>
           </div>
-          <div class="titulo2">
-            <div class="paragrafos">
-              <p>
-                Para deixar um legado para um mundo melhor, precisamos encontrar
-                uma causa que nos encante. E o trabalho voluntario pode nos ajudar 
-                a encontar essa causa, assim como nos permite transformar a sociedade 
-                através de boas ações.
-              </p>
-              <p>
-                Cientificamente, fazer o bem faz bem. Segundo estudos da Universidade de 
-                Oxford, de 2005, o cérebro de quem pratica voluntariado libera mais hormônios.
-                como a dopamina e a serotonina, responsáveis diretos pela felicidade e bem-estar.
-                Ainda trazendo benefícios, como: transofrmação social, transformação pessoal e novas
-                habilidades. 
-              </p>
-          <div class="container_botao">
-            <a class="botao" href="">SEJA VOLUNTARIO</a>
-          </div>
-        </section>
-      </main>
-</body>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <div class="icon">
+          <a href="https://github.com/yurimirandakrt150/Nutrihope-projeto"
+            ><i class="fa-brands fa-github"> </i
+          ></a>
+          <a href=""><i class="fa-brands fa-facebook"> </i></a>
+          <a href=""><i class="fa-brands fa-discord"> </i></a>
+          <a href=""><i class="fa-brands fa-instagram"> </i></a>
+          <a href=""><i class="fa-brands fa-twitter"> </i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Comece agora</a></li>
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Nossa equipe</a></li>
+            <li><a href="">Atualizações</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footerBottom">
+      <p>
+        Copyright &copy;2024: Desenvolvido por
+        <span class="designers">
+          Yuri Miranda, Wellerson Tavares, Wagner Camargo, Hiago Brito e Fabio
+          Lopes
+        </span>
+      </p>
+    </div>
+  </body>
 </html>
