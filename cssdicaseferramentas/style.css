@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
   font-family: Comfortaa, sans-serif;
 }
 
 body {
   background-color: rgb(230, 230, 230);
 }
+
+
 
 @font-face {
   font-family: Comfortaa;
@@ -351,6 +354,7 @@ h1 {
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: auto;
 }
 
 .titulosimpl {
