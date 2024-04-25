@@ -1,8 +1,8 @@
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     font-family: Comfortaa, sans-serif;
   }
 
@@ -95,6 +95,7 @@ nav ul li a {
         font-size: 16px;
         cursor: pointer;
         margin-right: 30px;
+        border-radius: 30px;
     }
 
     nav ul {
@@ -168,8 +169,7 @@ footer {
 }
 .footerContainer{
     width: 100%;
-    padding: 90px 30px 20px;
-    position: fixed; 
+    padding: 90px 30px 20px; 
     bottom: 0;
     background-color: #0c3825;
     
@@ -187,7 +187,7 @@ footer {
 }
 .footerNav{
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
 }
 .footerNav ul{
     display: flex;
@@ -205,14 +205,15 @@ footer {
     opacity: 1;
   }
   
-  .footerBottom {
+footer  {
     display: flex;
-    position: fixed; 
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 15%;
+}
+
+.footerBottom{
+    display: flex;
     justify-content: center;
-    color: #f9f9f9;
+    color: floralwhite;
 }
 
 
@@ -243,11 +244,13 @@ footer {
 .inicio {
     display: flex;
     align-items: center;
-    position: relative;
     background-color: white;
-   ;
 }
-
+@media (max-width: 700px){
+    .inicio{
+        flex-direction: column;
+    }
+}
 
 /* Parágrafos */
 .paragrafos {
