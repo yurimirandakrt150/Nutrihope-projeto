@@ -99,6 +99,7 @@ nav ul li a {
     font-size: 16px;
     cursor: pointer;
     margin-right: 30px;
+    border-radius: 30px;
   }
 
   nav ul {
@@ -163,6 +164,20 @@ color: white;
   margin: 0px 5px;
 }
 
+.consultar_nutricionista {
+  background-color: #6B8E23; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.consultar_nutricionista:hover {
+  background-color: #808080; 
+}
 
 @media (max-width: 768px) {
   .footerBottom {
@@ -301,6 +316,7 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: #000000;
+  border-radius: 30px;
 }
 
 .buttonscal button {
@@ -311,6 +327,7 @@ h1 {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  border-radius: 30px;
 }
 @media (max-width: 768px) {
   .buttonscal {
