@@ -152,7 +152,6 @@ body {
 }
 
 .main-login{
-    width: 100vw;
     height: 100vh;
     color: aliceblue;
     display: flex;
