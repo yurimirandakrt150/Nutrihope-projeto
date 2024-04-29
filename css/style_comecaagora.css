@@ -46,7 +46,7 @@
 }
 
 header {
-    background-color: #0F482F;
+    background-color: #0f4820;
     color: aliceblue;
     width: 100%;    
 }
@@ -120,7 +120,7 @@ nav ul li a {
 @media screen and (max-width: 600px) {
     .botao-header {
         display: inline-block; /* Mostra o botão quando a tela estiver com 600px ou menos */
-        background-color: #4CAF50;
+        background-color: #0f4820;
         border: none;
         color: white;
         padding: 10px 20px;

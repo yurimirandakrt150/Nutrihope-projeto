@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/images/background2.png);
+    background-image: url(/images/fundo\ volutanrio\ form.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,7 +51,7 @@ button {
     border: none;
     text-align: center;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #0f4820;
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
