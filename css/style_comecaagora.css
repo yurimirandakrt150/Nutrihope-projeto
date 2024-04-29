@@ -158,6 +158,11 @@ body {
     justify-content: center; 
     align-items: center;
 }
+@media (max-width: 700px){
+    .main-login{
+        flex-direction: column;
+    }
+}
 
 .left-login{
     width: 100vw;
@@ -181,7 +186,7 @@ body {
 }
 
 .card-login{
-    width: 60%;
+    width: 500px;
     display: flex;
     justify-content:center;
     align-items: center;

@@ -1,3 +1,9 @@
+/* Remover espaço em brando lateral no mobile
+
+ */
+ html, body{
+    overflow-x: hidden !important; 
+}
 p {
     text-align: justify;
 }
@@ -14,11 +20,19 @@ main{
     background-size: 100%;
     background-position:center;
     background-repeat: no-repeat;
-    height: 300px;
-    max-width: 100%;
-    max-height: 100%;
     overflow: hidden;
 }
+@media (max-width: 700px){
+    .nutrisocial{
+        flex-direction: column;
+        background-size: 120%;
+        margin-top: -20px;
+        background-image: url("/images/fundo-copia.jpg");
+    }
+}
+
+
+
 
 .nutrisocial div{
     margin: 40px;
@@ -98,6 +112,12 @@ div{
     flex-direction: column;
     align-items: center;
 }
+@media (max-width: 700px){
+    .porque_vermais{
+        flex-direction: column;
+        margin-right: 30px;
+    }
+}
 
 .resultados{
     display: flex;
@@ -113,6 +133,11 @@ div{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+}
+@media (max-width: 700px){
+    .porque_result{
+        flex-direction: column;
+    }
 }
 
 .resultados{
@@ -140,10 +165,19 @@ div.comofunciona{
 }
 
 .obesidade{
+    margin-top: 20px;
     max-width: 700px;
     border-radius: 50px;
     margin-bottom: 30px;
 }
+@media (max-width: 700px){
+    .obesidade{
+        flex-direction: column;
+        width: 400px;
+        margin-top: 30px;
+    }
+}
+
 
 ol li:before {
     content: counter(item) ". ";
@@ -155,6 +189,13 @@ ol li:before {
     margin-left: 40px;
     margin-right: 40px;
 }
+@media (max-width: 700px){
+    .comofunciona{
+        flex-direction: column;
+    }
+}
+
+
 
 .melhorealimentacao{
     margin-left: 40px;

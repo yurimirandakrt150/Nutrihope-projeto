@@ -5,6 +5,13 @@
     box-sizing: border-box;
     font-family: Comfortaa, sans-serif;
   }
+  
+  /* Remover espaço em brando lateral no mobile
+
+ */
+html, body{
+    overflow-x: hidden !important; 
+}
 
 /* Body */
 body {
